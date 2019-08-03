@@ -1,0 +1,37 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# scotus
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of `scotus` is to provide a access to [SCOTUS](https://www.supremecourt.gov/) opinions for use in text analysis. All the data have been taken fro the repository https://github.com/brianwc/bulk_scotus.
+
+## Installation
+
+You can install the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("EmilHvitfeldt/scotus")
+```
+## Darta
+
+So far the package only includes 1 dataset, `scotus_sample` which is a random sample of 10% of the total number of opinions (for size reasons).
+
+```{r example}
+library(scotus)
+str(scotus_sample)
+```
