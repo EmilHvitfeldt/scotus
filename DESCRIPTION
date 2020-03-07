@@ -1,5 +1,5 @@
 Package: scotus
-Title: What the Package Does (One Line, Title Case)
+Title: Collection of Supreme Court of the United States' Opinions
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Emil",
