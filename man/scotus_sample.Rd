@@ -4,7 +4,9 @@
 \name{scotus_sample}
 \alias{scotus_sample}
 \title{Random selection of Supreme Court of the United States opinions}
-\format{A data frame with 6336 rows and 5 variables.}
+\format{
+A data frame with 6336 rows and 5 variables.
+}
 \usage{
 scotus_sample
 }
