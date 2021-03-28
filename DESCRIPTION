@@ -1,6 +1,6 @@
 Package: scotus
 Title: Collection of Supreme Court of the United States' Opinions
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: 
     person(given = "Emil",
            family = "Hvitfeldt",
